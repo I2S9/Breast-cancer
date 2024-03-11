@@ -33,7 +33,7 @@ We have a dataset with **569** number fo instances and for the class distributio
 
 We have 30 features to feat them into the classifier (= machine learning model) 
 
-## III.Techniques used 
+## III. Techniques used 
 
 **Support vector machine method** to find the best line that separate the two classes 
 
