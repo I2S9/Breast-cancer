@@ -34,9 +34,25 @@ We have 30 features to feat them into the classifier (= machine learning model)
 
 **Support vector machine method** to find the best line that separate the two classes 
 
-<p align="center">
-  <img src="https://github.com/I2S9/Breast-cancer/assets/111307883/49a340f2-8476-4313-b6ef-346772ca5597" width="650">
-</p>
+<img src="https://github.com/I2S9/Breast-cancer/assets/111307883/49a340f2-8476-4313-b6ef-346772ca5597" width="600">
+
+  
+That best line, in this case, we are going to rely on mainly two points and these two points in our study, we're gonna call it the **supported vectors**
+
+
+<img src="https://github.com/I2S9/Breast-cancer/assets/111307883/e348b9b6-f97f-4310-b4f1-577b675f81a4" width="600">
+
+We have the maximum margin hyperplane which is the hyperplane or the line that separates mainly the two classes
+
+In order to get this line, we used a distance what we call the maximum margin distance and that's the objective of supportive vector machine classifier is to find or maximize that maximum margin distance between the two classes. In order to do this we use these two mainly points and in this case, we call them support vectors.
+
+
+### Support vectors 
+
+Support vectors are the points that we assume that these points are kind of on the boundary or a kind of on a grey area. That means that they are not fully malignant in this case or benign in this case. It's kind of between where human or physician eyes for example might be able to detect if the cancer is malignant or benign or for example if that image is a cat or a dog. 
+
+Support vector machines are very powerful techniques because it's a kind of an extreme algorithm, it doesn't classify : it just focus on the supportive vectors or the points on the boudary and separate them somehow 
+
 
 ## References 
 
