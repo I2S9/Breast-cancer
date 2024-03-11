@@ -24,7 +24,6 @@ Breast cancer is the most common cancer among women worldwide. Accounting for 25
 
 ## II. Dataset in Machine Learning terms 
 
-
 ![img2](https://github.com/I2S9/Breast-cancer/assets/111307883/f22cd9f1-fc29-4fe5-8f69-bacc01c7be8d)
 
 We have a dataset with **569** number fo instances and for the class distribution, we haev **212 malignant** & **357 benign**
@@ -35,7 +34,9 @@ We have 30 features to feat them into the classifier (= machine learning model)
 
 **Support vector machine method** to find the best line that separate the two classes 
 
-![image](https://github.com/I2S9/Breast-cancer/assets/111307883/49a340f2-8476-4313-b6ef-346772ca5597)
+<p align="center">
+  <img src="https://github.com/I2S9/Breast-cancer/assets/111307883/49a340f2-8476-4313-b6ef-346772ca5597" width="650">
+</p>
 
 ## References 
 
