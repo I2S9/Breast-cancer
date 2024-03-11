@@ -30,7 +30,7 @@ We have a dataset with **569** number fo instances and for the class distributio
 
 We have 30 features to feat them into the classifier (= machine learning model) 
 
-## Techniques used 
+## III.Techniques used 
 
 **Support vector machine method** to find the best line that separate the two classes 
 
@@ -54,7 +54,8 @@ Support vectors are the points that we assume that these points are kind of on t
 Support vector machines are very powerful techniques because it's a kind of an extreme algorithm, it doesn't classify : it just focus on the supportive vectors or the points on the boudary and separate them somehow 
 
 
-## References 
+## IV. References 
 
 [[EN] Breast Cancer Detection | ResearchGate](https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set)
 
+[[EN] Breast Cancer Screenings | Cancer Reseach UK](https://www.cancerresearchuk.org/about-cancer/breast-cancer/getting-diagnosed/screening-breast)
