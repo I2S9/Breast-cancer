@@ -26,6 +26,9 @@ Breast cancer is the most common cancer among women worldwide. Accounting for 25
 
 ![img2](https://github.com/I2S9/Breast-cancer/assets/111307883/f22cd9f1-fc29-4fe5-8f69-bacc01c7be8d)
 
+We are using a dataset from sklearn : [Go to the dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
+
+
 We have a dataset with **569** number fo instances and for the class distribution, we haev **212 malignant** & **357 benign**
 
 We have 30 features to feat them into the classifier (= machine learning model) 
