@@ -61,7 +61,9 @@ Support vector machines are very powerful techniques because it's a kind of an e
 
 ### IV. Model Evaluation
 
+<p align="justify">
 One of the key features or one of the key objectives of our machine learning techniques is that we want these models to generalize the data. By generalization, we mean that we wan tit the machine learning strategy to train or not train our model specificially for this training dataset. We wanted a model to be general to basically look at the most of the images moving forward of cancer data or images and tell us if it's malignant or benign even if the images hasn't been seen before during training.
+</p>
 
 The model is an overfitted model which means that the model has learned all the caracteristics out of only training data, we want a model to be as general as possible. 
 
@@ -69,7 +71,10 @@ To evaluate the model, we are using a confusion matrix where the rows show the p
 
 <img src="https://github.com/I2S9/Breast-cancer/assets/111307883/56414bf6-aece-4333-af82-5f3ec8ef3616" width="600">
 
-We have what we call a type I error and type II error. **Type I error** indicates that the prediction must tell us that the patient has a disease. However for the true class, he actually didn't which is again, it's still an error and we call it a type I error because the patient still ok. However, type II error that's a huge problem and we wanted to avoid it at all costs especially if it's a life-threatening disease like cancer. Here, if we have olur true class said it's positive that mean the patient had cancer but we said no, the ML model said that the patient is ok. 
+<p align="justify">
+We have what we call a **type I error** and **type II error**. **Type I error** indicates that the prediction must tell us that the patient has a disease. However for the true class, he actually didn't which is again, it's still an error and we call it a type I error because the patient still ok. However, type II error that's a huge problem and we wanted to avoid it at all costs especially if it's a life-threatening disease like cancer. Here, if we have our true class said it's positive that mean the patient had cancer but we said no, the ML model said that the patient is ok. 
+</p>
+
 
 ## V. References 
 
