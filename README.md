@@ -76,8 +76,32 @@ We have what we call a type I error and type II error. Type I error indicates th
 </p>
 
 
-## V. References 
+### V. Improving the model
+
+* Data normalization method : we're gonna use what we call it unity based normalization which is we wanted to get all the data to be from between 0 and 1.
+
+* Feature scaling (Unity-based normalization) brings all values into range [0,1]
+
+Other optimization for our model : **SVM Parameters Optimization**. C parameter : controls trade-off between classifying training points correctly and having a smooth decision boundary/
+
+- **Small C (loose)** makes cost (penalty) of misclassification low (soft margin)
+
+- **Large C (strict)** makes cost of misclassification high (hard margin); forcing the model to exmplain input data stricter and potentially over fit
+
+
+<img src="https://github.com/I2S9/Breast-cancer/assets/111307883/f224ecf1-d476-4b8c-b750-7eb7c0841389" width="450">
+
+Gamma parameters : controls how far the influence of a single training set reaches
+
+* **Large gamma** : close reach (closer data points have high weight)
+
+* **Small gamma** : far reach (more generalized solution)
+
+## VI. References 
 
 [[EN] Breast Cancer Detection | ResearchGate](https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set)
 
 [[EN] Breast Cancer Screenings | Cancer Reseach UK](https://www.cancerresearchuk.org/about-cancer/breast-cancer/getting-diagnosed/screening-breast)
+
+[[EN] Support Vector Machines](https://mlpy.sourceforge.net/docs/3.4/svm.html)
+
