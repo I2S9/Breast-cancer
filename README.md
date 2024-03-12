@@ -52,12 +52,26 @@ In order to get this line, we used a distance what we call the maximum margin di
 
 ### Support vectors 
 
+<p align="justify">
 Support vectors are the points that we assume that these points are kind of on the boundary or a kind of on a grey area. That means that they are not fully malignant in this case or benign in this case. It's kind of between where human or physician eyes for example might be able to detect if the cancer is malignant or benign or for example if that image is a cat or a dog. 
 
 Support vector machines are very powerful techniques because it's a kind of an extreme algorithm, it doesn't classify : it just focus on the supportive vectors or the points on the boudary and separate them somehow 
 
+</p>
 
-## IV. References 
+### IV. Model Evaluation
+
+One of the key features or one of the key objectives of our machine learning techniques is that we want these models to generalize the data. By generalization, we mean that we wan tit the machine learning strategy to train or not train our model specificially for this training dataset. We wanted a model to be general to basically look at the most of the images moving forward of cancer data or images and tell us if it's malignant or benign even if the images hasn't been seen before during training.
+
+The model is an overfitted model which means that the model has learned all the caracteristics out of only training data, we want a model to be as general as possible. 
+
+To evaluate the model, we are using a confusion matrix where the rows show the predictions and all the columns show all the true classes 
+
+<img src="https://github.com/I2S9/Breast-cancer/assets/111307883/56414bf6-aece-4333-af82-5f3ec8ef3616" width="600">
+
+We have what we call a type I error and type II error. **Type I error** indicates that the prediction must tell us that the patient has a disease. However for the true class, he actually didn't which is again, it's still an error and we call it a type I error because the patient still ok. However, type II error that's a huge problem and we wanted to avoid it at all costs especially if it's a life-threatening disease like cancer. Here, if we have olur true class said it's positive that mean the patient had cancer but we said no, the ML model said that the patient is ok. 
+
+## V. References 
 
 [[EN] Breast Cancer Detection | ResearchGate](https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set)
 
