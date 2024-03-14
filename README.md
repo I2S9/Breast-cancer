@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Breast cancer is the most common cancer among women worldwide. Accounting r 25% of all cancer cases and affected 2.1 million people in 2015. Early diagnosis significantly increases the chances of survival. A key challenge of cancer detection is how to classify tumors into malignant or benign. 
+Breast cancer is the most common cancer among women worldwide. Accounting for 25% of all cancer cases and affected 2.1 million people in 2015. Early diagnosis significantly increases the chances of survival. A key challenge of cancer detection is how to classify tumors into malignant or benign. 
 
 **ML** (Machine Learning) techniques can dramatically improve the accuracy of diagnosis. 91% correct diagnosis is achieved using machine learning techniques 
 
